@@ -44,6 +44,8 @@ img {
   color: #ffffff;
   font-size: 1.125rem;
   position: relative;
+  font-family: "poppins",Arial, Helvetica, sans-serif;
+  font-weight: 400;
 }
 .header-menu a::after {
   content: "";
@@ -111,6 +113,8 @@ border-radius: 4px;
   margin-bottom: 32px;
   font-size: 64px;
   line-height: 1.125;
+  font-family: "poppins",Arial, Helvetica, sans-serif;
+  font-weight:600;
 }
 .introducao h1 span {
   color: #ffbb00;
@@ -120,6 +124,8 @@ border-radius: 4px;
   font-size: 24px;
   line-height: 1.5;
   color: #b2b2b2;
+  font-family: "Roboto",Arial, Helvetica, sans-serif;
+  font-weight: 400;
 }
 .introducao a {
   display: inline-block;
@@ -130,8 +136,9 @@ border-radius: 4px;
   color: #332200;
   font-size: 18px;
   line-height: 1.33;
-  font-weight: 600;
   text-transform: uppercase;
+  font-family: "Poppins",Arial, Helvetica, sans-serif;
+  font-weight: 600;
 }
 .introducao a:hover{
   background: linear-gradient( #E4A30B, #A66F00);
