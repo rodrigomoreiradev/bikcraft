@@ -8,7 +8,9 @@ ul,
 h1,
 h2,
 h3,
-h4 p {
+h4,
+p,
+blockquote {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -21,6 +23,6 @@ img {
   display: block;
   max-width: 100%;
 }
-img[src$=".jpg"]{
+img[src$=".jpg"] {
   border-radius: 4px;
 }
