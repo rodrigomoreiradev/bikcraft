@@ -1,6 +1,7 @@
 @import url("./global/golbal.css");
 @import url("./utilidades/tipografia.css");
 @import url("./global/header.css");
+@import url("./global/footer.css");
 
 /* utilidades */
 @import url("./utilidades/componentes.css");
