@@ -12,6 +12,9 @@
 #seguros .seguros{
   padding-top: 0;
 }
+#seguros .titulo p{
+  text-transform: uppercase;
+}
 .seguros h2{
   grid-column: 1/-1;
 }
