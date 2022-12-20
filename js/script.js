@@ -31,9 +31,8 @@ function ativarPergunta(event) {
   const controls = pergunta.getAttribute("aria-controls");
   const resposta = document.getElementById(controls);
 
-
   resposta.classList.toggle("ativa");
-  const ativa = resposta.classList.contains("ativa"); 
+  const ativa = resposta.classList.contains("ativa");
   pergunta.setAttribute("aria-expanded", ativa);
 }
 
@@ -42,3 +41,26 @@ function eventosPerguntas(pergunta) {
 }
 
 perguntas.forEach(eventosPerguntas);
+
+// galeria de bicicletas
+
+const galeria = document.querySelectorAll(".bicicleta-imagens img");
+const galeriaContainer = document.querySelector(".bicicleta-imagens");
+
+function trocarImagem(event) {
+  const img = event.currentTarget;
+  const media = matchMedia("(min-width:100px)").matches;
+  galeriaContainer.prepend(img);
+}
+
+function eventosGaleria(img) {
+  img.addEventListener("click", trocarImagem);
+}
+
+galeria.forEach(eventosGaleria);
+
+
+// animação
+if(window.SimpleAnime){
+  new SimpleAnime();
+}
